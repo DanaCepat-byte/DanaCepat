@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana Cepat</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 20px; }
+        .dashboard { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        h2 { color: #333; }
+        .saldo, .profit { font-size: 20px; font-weight: bold; }
+        button { background: green; color: white; border: none; padding: 10px; margin-top: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Dashboard Investasi</h2>
+        <p class="saldo">Saldo: Rp120.000</p>
+        <p class="profit">Profit: Rp35.000 per hari</p>
+        <button onclick="alert('Withdrawal dalam proses...')">Withdraw</button>
+    </div>
+</body>
+</html>
